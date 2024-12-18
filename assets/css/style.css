@@ -9,31 +9,240 @@ h1,h2, h3{
     font-family: "Raleway", sans-serif;
 }
 
+
+
 body{
     font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: #e3e3e3;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #e3e3e3;
-    
 
 }
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f5f5f5;
-    width: 1160px;
-}
+
+
+
 
 header{
-    background-color: #f5f5f5;
+    background-color: #17abb3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    color : #ffffff
+   
+          
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+   
+    align-items: end;
+}
+
+.two{
+    
+    width:400px;
+    display: flex;
+    flex-direction: column;
     
 }
 
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1160px;
+    height: 100%;
+}
+    
+
+.img-container{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color:#17abb3 ;    
+        
+}
+
+#ma-photo{
+    border-radius: 50%;
+    border: 7px solid #ffffff ;
+    height: 70%; 
+    width: auto; 
+}
+
+.one-one{
+    background-color:#ffffff ;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h3{
+    color: #17abb3;
+}
+.mail-adr{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 20px;
+   }
+
+
+   [id^="pic-"] {
+    width: 10px;
+    height: 10px;
+        }
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.slide-bar-left{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f5f5f5;
+    height: 100%;
+
+}
+
+hr{
+    color: #e3e3e3;
+}
+
+
+.html{
+    display: flex;
+    
+}
+
+.small-star-html{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    align-self: center;
+ }
+
+ p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+ footer{
+    background-color: #17abb3;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+
+ footer p{
+    margin: 0;
+    text-align: center;
+
+    
+ }
+
+ .french{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-self: start;
+    
+ }
+
+
+ .css{
+    display: flex;
+    
+}
+
+.small-star-css{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    align-self: center;
+ }
+
+ li{
+    margin-bottom: 5px;
+    list-style-type: none;
+ }
+
+ ul{
+    padding-left: 0px;
+ }
+
+ .excel{
+    display: flex;
+    
+}
+
+.small-star-excel{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    align-self: center;
+ }
+
+ .sql{
+    display: flex;
+    
+}
+
+.small-star-sql{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    align-self: center;
+ }
+
+ .powerbi{
+    display: flex;
+    
+}
+
+.small-star-powerbi{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    align-self: center;
+ }
+
+ .powerautomate{
+    display: flex;
+    
+}
+
+ .small-star-powerautomate{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    align-self: center;
+ }
+
+
+
+
+
+
+
+  
 
 
