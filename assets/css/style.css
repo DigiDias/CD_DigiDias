@@ -184,15 +184,15 @@ article p{
     
 }
 
-.langues{
-    list-style-type: none;
-
-}
 
 .langues li{
     list-style-type: none;
     font-size: black;
     font-weight: bold;
+}
+
+.langues span{
+    font-weight: 100;
 }
 
 
